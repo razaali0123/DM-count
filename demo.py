@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 import scipy
 
-model_path = "pretrained_models/model_qnrf.pth"
+model_path = "pretrained_models/model_sh_A.pth"
 url = "https://drive.google.com/uc?id=1nnIHPaV9RGqK8JHL645zmRvkNrahD9ru"
 gdown.download(url, model_path, quiet=False)
 
